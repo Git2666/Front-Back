@@ -1,9 +1,17 @@
+using Backend.Blog.EFCore.DBContext;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<MysqlDBCOntext>(opt =>
+{
+    opt.UseMySql(builder.Configuration.GetSection("constr").Value, new MySqlServerVersion(new Version(10,7,1)));
+});
 
 var app = builder.Build();
 

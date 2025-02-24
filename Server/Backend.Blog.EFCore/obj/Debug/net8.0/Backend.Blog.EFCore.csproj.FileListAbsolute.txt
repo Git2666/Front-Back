@@ -1,0 +1,16 @@
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/bin/Debug/net8.0/Backend.Blog.EFCore.deps.json
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/bin/Debug/net8.0/Backend.Blog.EFCore.dll
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/bin/Debug/net8.0/Backend.Blog.EFCore.pdb
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/bin/Debug/net8.0/Backend.Blog.Model.dll
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/bin/Debug/net8.0/Backend.Blog.Model.pdb
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend.Blog.EFCore.csproj.AssemblyReference.cache
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend.Blog.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend.Blog.EFCore.AssemblyInfoInputs.cache
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend.Blog.EFCore.AssemblyInfo.cs
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend.Blog.EFCore.csproj.CoreCompileInputs.cache
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend.Blog.EFCore.sourcelink.json
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend..50B05818.Up2Date
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend.Blog.EFCore.dll
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/refint/Backend.Blog.EFCore.dll
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/Backend.Blog.EFCore.pdb
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.EFCore/obj/Debug/net8.0/ref/Backend.Blog.EFCore.dll

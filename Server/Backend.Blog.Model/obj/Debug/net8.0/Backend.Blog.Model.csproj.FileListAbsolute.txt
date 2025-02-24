@@ -1,0 +1,12 @@
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/bin/Debug/net8.0/Backend.Blog.Model.deps.json
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/bin/Debug/net8.0/Backend.Blog.Model.dll
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/bin/Debug/net8.0/Backend.Blog.Model.pdb
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/Backend.Blog.Model.GeneratedMSBuildEditorConfig.editorconfig
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/Backend.Blog.Model.AssemblyInfoInputs.cache
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/Backend.Blog.Model.AssemblyInfo.cs
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/Backend.Blog.Model.csproj.CoreCompileInputs.cache
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/Backend.Blog.Model.sourcelink.json
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/Backend.Blog.Model.dll
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/refint/Backend.Blog.Model.dll
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/Backend.Blog.Model.pdb
+/home/deck/RiderProjects/Front-Back/Server/Backend.Blog.Model/obj/Debug/net8.0/ref/Backend.Blog.Model.dll
