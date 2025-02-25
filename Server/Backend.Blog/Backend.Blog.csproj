@@ -16,7 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Backend.BaseRepository\Backend.BaseRepository.csproj" />
+    <ProjectReference Include="..\Backend.BaseService\Backend.BaseService.csproj" />
     <ProjectReference Include="..\Backend.Blog.EFCore\Backend.Blog.EFCore.csproj" />
+    <ProjectReference Include="..\Backend.IBaseRepository\Backend.IBaseRepository.csproj" />
+    <ProjectReference Include="..\Backend.IBaseService\Backend.IBaseService.csproj" />
+    <ProjectReference Include="..\Backend.Util\Backend.Util.csproj" />
   </ItemGroup>
 
 </Project>

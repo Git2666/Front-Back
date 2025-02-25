@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Backend.Blog.EFCore")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Backend.Util")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c27630a58bfbb731a4b5b3d892e3b2fa2b9f921a")]
-[assembly: System.Reflection.AssemblyProductAttribute("Backend.Blog.EFCore")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Backend.Blog.EFCore")]
+[assembly: System.Reflection.AssemblyProductAttribute("Backend.Util")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Backend.Util")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
