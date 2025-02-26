@@ -3,6 +3,7 @@ using Backend.Blog.Model;
 using Backend.Blog.Model.DTO;
 using Backend.IBaseService;
 using Backend.Util;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Blog.Controller;
@@ -22,6 +23,7 @@ public class ArticleController : ControllerBase
     }
 
     [HttpGet("GetAll")]
+    [Authorize]
     public async Task<ActionResult<ApiResult>> GetAllArticles()
     {
         List<Article> data = await _articleService.FindAllAsync();
@@ -37,6 +39,7 @@ public class ArticleController : ControllerBase
     }
 
     [HttpPost("Create")]
+    [Authorize]
     public async Task<ActionResult<ApiResult>> CreateArticle(string title, string content, Guid typeid)
     {
         Article article = new Article()
@@ -60,6 +63,7 @@ public class ArticleController : ControllerBase
     }
     
     [HttpDelete("Delete")]
+    [Authorize]
     public async Task<ActionResult<ApiResult>> Delete(Guid id)
     {
         Article article = await _articleService.GetByIdAsync(id);
@@ -79,6 +83,7 @@ public class ArticleController : ControllerBase
     }
 
     [HttpPut("Edit")]
+    [Authorize]
     public async Task<ActionResult<ApiResult>> Edit(Guid id, string title, string content, Guid typeid)
     {
         var article = await _articleService.GetByIdAsync(id);

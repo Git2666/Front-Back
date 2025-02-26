@@ -8,6 +8,8 @@ public class User : IdentityUser<Guid>
     public string? Info { get; set; }
     
     public string? Wechat { get; set; }
-    
+
+    public long JwtVersion { get; set; }
+
     public bool IsDeleted { get; set; } = false;
 }
