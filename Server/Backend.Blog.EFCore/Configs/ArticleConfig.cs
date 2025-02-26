@@ -17,7 +17,7 @@ public class ArticleConfig : IEntityTypeConfiguration<Article>
         // config soft delete
         builder.HasQueryFilter(x => !x.IsDeleted);
 
-        builder.HasOne(x => x.Type);
+        //builder.HasOne(x => x.Type);
         
     }
 }

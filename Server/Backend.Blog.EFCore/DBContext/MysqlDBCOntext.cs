@@ -1,11 +1,12 @@
 using Backend.Blog.Model;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Blog.EFCore.DBContext;
 
-public class MysqlDBCOntext : DbContext
+public class MysqlDBCOntext : IdentityDbContext<User, Role, Guid>
 {
-    public MysqlDBCOntext(DbContextOptions options) : base(options)
+    public MysqlDBCOntext(DbContextOptions<MysqlDBCOntext> options) : base(options)
     {
         
     }
@@ -13,6 +14,9 @@ public class MysqlDBCOntext : DbContext
     public DbSet<Article> Articles { get; set; }
     
     public DbSet<ArticleType> ArticleTypes { get; set; }
+    
+    
+    
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

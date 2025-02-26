@@ -13,6 +13,9 @@ public class DTOMapper : Profile
 
         //ArticleType
         base.CreateMap<ArticleType, ArticleTypeDTO>();
+        
+        //user
+        base.CreateMap<User, UserDTO>();
 
     }
 }

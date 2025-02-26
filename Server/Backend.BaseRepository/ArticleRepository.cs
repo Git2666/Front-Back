@@ -18,10 +18,10 @@ public class ArticleRepository : BaseRepository<Article>, IArticleRepository
     public override async Task<List<Article>> FindAllAsync()
     {
         var list = await _db.Articles.ToListAsync();
-        foreach (var article in list)
-        {
-            article.Type = _db.ArticleTypes.Find(article.TypeId);
-        }
+        // foreach (var article in list)
+        // {
+        //     article.Type = _db.ArticleTypes.Find(article.TypeId);
+        // }
         return list;
     }
 }

@@ -8,9 +8,13 @@ public class Article : BaseModel
     
     public DateTime CreateTime { get; set; }
     
-    public ArticleType Type { get; set; }
+    //public ArticleType Type { get; set; }
     
     public Guid TypeId { get; set; }
+    
+    //public User Author { get; set; }
+    
+    public Guid AuthorId { get; set; }
     
     public int ViewCount { get; set; }
     
