@@ -64,15 +64,13 @@ public static class IocExtend
             opt.Password.RequireLowercase = false;
             opt.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultEmailProvider;
             opt.Tokens.EmailConfirmationTokenProvider = TokenOptions.DefaultEmailProvider;
+        });
+        IdentityBuilder ibuilder = new IdentityBuilder(typeof(User), typeof(Role), services);
             
-            IdentityBuilder ibuilder = new IdentityBuilder(typeof(User), typeof(Role), services);
-            
-            ibuilder.AddEntityFrameworkStores<MysqlDBCOntext>()
-                .AddDefaultTokenProviders()
+        ibuilder.AddEntityFrameworkStores<MysqlDBCOntext>()
+            .AddDefaultTokenProviders()
             .AddUserManager<UserManager<User>>()
             .AddRoleManager<RoleManager<Role>>();
-        });
-        
         services.AddDataProtection();
 
         return services;
