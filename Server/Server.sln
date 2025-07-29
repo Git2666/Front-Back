@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "src\Server.csproj", "{003D8F93-9B03-42CA-AE12-E37EF407442D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Host", "src\Server.Host\Server.Host.csproj", "{003D8F93-9B03-42CA-AE12-E37EF407442D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Book.Domain", "src\Server.Book.Domain\Server.Book.Domain.csproj", "{9B211DB4-8CDE-4D40-AD73-E526A1338685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Book.Infrastructure.EF.Oracle", "src\Server.Book.Infrastructure.EF.Oracle\Server.Book.Infrastructure.EF.Oracle.csproj", "{F502F5CB-356F-4274-8E6A-A68FFBE82512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{003D8F93-9B03-42CA-AE12-E37EF407442D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{003D8F93-9B03-42CA-AE12-E37EF407442D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{003D8F93-9B03-42CA-AE12-E37EF407442D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B211DB4-8CDE-4D40-AD73-E526A1338685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B211DB4-8CDE-4D40-AD73-E526A1338685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B211DB4-8CDE-4D40-AD73-E526A1338685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B211DB4-8CDE-4D40-AD73-E526A1338685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F502F5CB-356F-4274-8E6A-A68FFBE82512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F502F5CB-356F-4274-8E6A-A68FFBE82512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F502F5CB-356F-4274-8E6A-A68FFBE82512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F502F5CB-356F-4274-8E6A-A68FFBE82512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
